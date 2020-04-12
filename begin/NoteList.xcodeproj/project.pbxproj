@@ -13,6 +13,7 @@
 		18D775C722AD944400AE281E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D775C622AD944400AE281E /* Assets.xcassets */; };
 		18D775CA22AD944400AE281E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D775C922AD944400AE281E /* Preview Assets.xcassets */; };
 		18D775D822AD963800AE281E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D775DA22AD963800AE281E /* LaunchScreen.storyboard */; };
+		3EE8B9C02443876700C18E82 /* CreateDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE8B9BF2443876700C18E82 /* CreateDelegate.swift */; };
 		992A1C3223274ABB001E07E3 /* NoteListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992A1C3123274ABB001E07E3 /* NoteListViewModel.swift */; };
 		992A1C3423274B96001E07E3 /* NoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992A1C3323274B96001E07E3 /* NoteViewModel.swift */; };
 		992A1C3623274C39001E07E3 /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992A1C3523274C39001E07E3 /* DateUtils.swift */; };
@@ -38,6 +39,7 @@
 		18D775C922AD944400AE281E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		18D775CE22AD944400AE281E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18D775DE22AD96B400AE281E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EE8B9BF2443876700C18E82 /* CreateDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDelegate.swift; sourceTree = "<group>"; };
 		992A1C3123274ABB001E07E3 /* NoteListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListViewModel.swift; sourceTree = "<group>"; };
 		992A1C3323274B96001E07E3 /* NoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewModel.swift; sourceTree = "<group>"; };
 		992A1C3523274C39001E07E3 /* DateUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				18D775C022AD944300AE281E /* AppDelegate.swift */,
+				3EE8B9BF2443876700C18E82 /* CreateDelegate.swift */,
 				18D775C222AD944300AE281E /* SceneDelegate.swift */,
 			);
 			path = App;
@@ -262,6 +265,7 @@
 				999FC11523409385009D490A /* ProfileFormViewButtons.swift in Sources */,
 				998BB9762336602300C3E4CF /* ProfileView.swift in Sources */,
 				998BB97A2336613700C3E4CF /* ProfileViewModel.swift in Sources */,
+				3EE8B9C02443876700C18E82 /* CreateDelegate.swift in Sources */,
 				18D775C322AD944300AE281E /* SceneDelegate.swift in Sources */,
 				992A1C3623274C39001E07E3 /* DateUtils.swift in Sources */,
 				18D775C522AD944300AE281E /* NoteListView.swift in Sources */,
